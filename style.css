@@ -1,0 +1,209 @@
+
+    .navbar {
+      width: 100%
+    }
+    .navbar{
+      height: 60px;
+      padding: 0px 80px 0px 80px !important;
+    }
+.header {
+  position: sticky;
+}
+.header {
+  top: 0px 
+}
+.navbar {
+  box-sizing: border-box
+}
+#logo {
+  display: inline-block 
+}
+#logo {
+  width: 100%
+}
+#logo h1{
+  color: black;
+}
+
+.navbar {
+  padding: 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  color: white;
+ font-size: 1.1rem
+}
+
+.nav-list {
+  list-style: none;
+  display: flex;
+}
+
+.nav-list li {
+  margin-right: 20px;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: white;
+}
+
+.burger-menu {
+  display: none;
+  font-size: 1.5rem;
+  color: white;
+  cursor: pointer;
+}
+.burger-menu{
+  padding-right: 20px 
+}
+
+@media only screen and (max-width: 768px) {
+  .nav-list {
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 20%;
+    background-color:
+  }
+  .nav-list{
+    border: 1px solid
+  }
+.nav-list{
+  padding-right: 35px 
+}
+  .nav-list.show {
+    display: flex;
+  }
+
+  .nav-list li {
+    margin: 0;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .burger-menu {
+    display: block;
+  }
+
+  .pro_row{
+    flex-wrap: wrap;
+    padding: 0px 10px 0px 10px;
+  }
+}
+.image {
+  background-image: url(hero-bg.jpg);
+  background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.text{
+  color: #f1d6c6;
+  display: flex;
+  overflow: hidden;
+  justify-content: space-between;
+}
+.text_contant h1 {
+  font-size: 2.5rem;
+}
+.text_contant{
+  padding: 80px;
+
+}
+.img1{
+  position: relative;
+  right: 40px;
+  top: 40px;
+}
+.btn a{
+  padding: 10px;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: rgba(236, 154, 0, 0.87);
+}
+.btn{
+  margin-top: 30px;
+}
+@media only screen and (max-width: 768px) {
+  .img1{
+    display: none;
+  }
+  .text{
+    text-align: center;
+  }
+  .navbar{
+    padding: 0px 20px 0px 20px !important;
+  }
+  .text_contant h1 {
+    font-size: 1.7rem;
+  }
+  .row {
+    flex-wrap: wrap;
+    padding: 0px 20px 0px 20px;
+  }
+  .bg_img{
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  .img2 img{
+    padding-top: 0px;
+  }
+  .footer{
+    flex-wrap: wrap;
+  }
+}
+.row {
+  background-color: #f1d6c6;
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+.card{
+  width: 250px;
+  border: 1px solid black;
+  background-color: white;
+  margin: 10px;
+  float: 1;
+}
+.card_text{
+  text-align: center;
+}
+.card_img img{
+  width: 100%
+}
+.bg_img{
+  background-image: url('hero-bg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+ 
+}
+.bg_text{
+  color: white;
+  margin: 65px;
+  font-size: 1.5rem;
+}
+.bg_text h2{
+  color: rgba(236, 154, 0, 0.87);
+}
+.img2 img{
+  width: 100%;
+  padding-top: 100px;
+}
+.center{
+ background-color: #f1d6c6;
+  text-align: center;
+  padding-top: 10px;
+}
+.footer{
+  display: flex;
+  padding: 10px;
+}
+.foot{
+  padding: 20px;
+}
